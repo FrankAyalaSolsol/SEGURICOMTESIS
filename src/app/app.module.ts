@@ -7,6 +7,7 @@ import { AcercaComponent } from './components/acerca/acerca.component';
 import { CrearCuentaComponent } from './components/crear-cuenta/crear-cuenta.component';
 import { PreEstudioComponent } from './components/pre-estudio/pre-estudio.component';
 import { PaginaInicioUsuarioComponent } from './components/pagina-inicio-usuario/pagina-inicio-usuario.component';
+<<<<<<< HEAD
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoute: Routes = [
@@ -18,6 +19,9 @@ const appRoute: Routes = [
   {path: '/Pre_Estudio', component:PreEstudioComponent},
   {path: '/PaginaInicioUsuario', component:PaginaInicioUsuarioComponent}
 ]
+=======
+
+>>>>>>> 839405baae41edfc0ffbdc118c8d5d6040b59c8e
 
 
 @NgModule({
