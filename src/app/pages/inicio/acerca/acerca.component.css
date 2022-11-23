@@ -1,0 +1,76 @@
+.body
+{
+  background: #e8e8e8;
+}
+.wrapper
+{
+  width:77%;
+	max-width:3000px;
+	margin:40px;
+	overflow:hidden;
+}
+header {
+	width:100%;
+	overflow:hidden;
+	background:#072852;
+}
+
+header .Imagen {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:100px;
+	float:left;
+}
+header nav {
+	float:right;
+	line-height:70px;
+}
+.Imagen
+{
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 100px;
+
+  border-radius: 100px;
+    background-color: #bb06ad;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+
+}
+
+.Iconos1
+{
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+.Iconos1
+{
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+header nav a {
+	display:inline-block;
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+	padding:10px 40px;
+	line-height:normal;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size:22px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#b10808c6;
+	border-radius:5px;
+}
+header nav :active
+{
+  opacity: 0.5;
+}
