@@ -9,6 +9,7 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { PaginaInicioUsuarioComponent } from './pages/pagina-inicio-usuario/pagina-inicio-usuario.component';
 
 
+
 const routes: Routes = [
   
     { path: '', redirectTo:'/Inicio', pathMatch: 'full' },

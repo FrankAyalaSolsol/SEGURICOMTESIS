@@ -17,7 +17,7 @@
 {
   position: relative;
   width: 880px;
-  height: 1100px;
+  height: 1170px;
   background: #1c1c1c;
   border-radius: 8px;
   overflow: hidden;
@@ -30,7 +30,7 @@
   top: -50%;
   left: -50%;
   width: 880px;
-  height: 1100px;
+  height: 1170px;
   background:linear-gradient(0deg,transparent,#1ca1f3,#2d46eb);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
@@ -42,7 +42,7 @@
   top: -50%;
   left: -50%;
   width: 880px;
-  height: 1100px;
+  height: 1170px;
   background:linear-gradient(0deg,transparent,#1ca1f3,#2d46eb);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;

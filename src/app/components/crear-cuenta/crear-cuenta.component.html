@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<title>SEGURICOM - SEGURIDAD Y COMUNICACIONES</title>
-<link rel="stylesheet" href="crear-cuenta.component.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<head>
+
   <body class="body">
     <div class="caja">
         <div class="formulario">
-          <img src="Imagenes/IMG-20220921-WA0025.jpg" class="Imagen1">
+          <img src="../../../assets/imgcrear_cuenta/IMG-20220921-WA0025.jpg" class="Imagen1">
           <p class="Texto1">REGÍSTRESE Y SEA USUARIO DE SEGURICOM</p>
           <p class="Texto2">Rellene los datos</p>
           <div class="inputBox">
-            <input type="text" required="required">
+            <input type="text" formControlName="CORREO_ELECTRÓNICO" required="required">
             <span>CORREO ELECTRÓNICO</span>
             <i></i>
           </div>
@@ -39,6 +32,11 @@
           </div>
           <div class="inputBox">
             <input type="text" required="required">
+            <span>Tipo Cliente</span>
+            <i></i>
+          </div>
+          <div class="inputBox">
+            <input type="text" required="required">
             <span>DIRECCIÓN</span>
             <i></i>
           </div>
@@ -59,5 +57,3 @@
 
 
   </body>
-
-</head>

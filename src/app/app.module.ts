@@ -12,7 +12,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { PaginaInicioUsuarioComponent } from './pages/pagina-inicio-usuario/pagina-inicio-usuario.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 /*const appRoute: Routes = [
   {path:'',redirectTo:'/Inicio', pathMatch:'full'},
   {path: '/components/Inicio', component:InicioComponent},
@@ -33,11 +34,13 @@ import { PaginaInicioUsuarioComponent } from './pages/pagina-inicio-usuario/pagi
     AcercaComponent,
     CrearCuentaComponent,
     PreEstudioComponent,
-    PaginaInicioUsuarioComponent
+    PaginaInicioUsuarioComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,    
+    AppRoutingModule,  
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   bootstrap: [AppComponent]
 })
